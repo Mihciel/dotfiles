@@ -1,0 +1,12 @@
+alacritty
+blueman-manager
+cheese
+chromium
+firefox
+pavucontrol
+^poweroff$
+^reboot$
+^shutdown$
+spotify
+thunderbird
+^vlc$
