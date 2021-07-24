@@ -3,11 +3,11 @@ Requires:
 - alacritty
 - brightnessctl
 - htop
-- sway
+- libpulse
 - pacman
 - paru
 - pavucontrol
-- pulseaudio
+- sway
 
 The pacman module doesn't quite work as expected. It requires a database sync ```# pacman -Sy```.
 I'm looking for a workaround for the requirement of sudo.
