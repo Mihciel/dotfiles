@@ -47,7 +47,7 @@
     },
     "custom/pacman": {
         "interval": 3600,
-        "exec": "echo \"  `paru -Qu | wc -l` updates (`paru -Qua | wc -l` aur)  \"",
+        "exec": "echo \"  `checkupdates | wc -l` updates (`paru -Qua | wc -l` aur)\"",
         "exec-on-event": "on-click"
     },
     "idle_inhibitor": {
