@@ -1,3 +1,6 @@
+# Import the colors.
+. "../colourscheme/colors.sh"
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -27,6 +30,7 @@ alias diff='diff --color=auto'
 alias grep='grep --color=auto'
 alias ip='ip -color=auto'
 alias ls='ls --color=auto'
+alias dmenu='dmenu "$color0" -nf "$color15" -sb "$color1" -sf "$color15"'
 ## end aliases
 
 ## additions to path
