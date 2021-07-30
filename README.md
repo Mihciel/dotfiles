@@ -5,4 +5,5 @@ my configuration files for applications:
 - powerlevel10k
 - nvim
 - waybar
+- zathura
 - zsh
