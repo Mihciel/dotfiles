@@ -1,4 +1,4 @@
-source colours
+source ~/.cache/wal/colors-zathura
 set recolor "true"
 set window-title-home-tilde true
 set statusbar-basename true

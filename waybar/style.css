@@ -1,0 +1,40 @@
+@import "/home/michiel/.cache/wal/colors-waybar.css";
+* {
+    border: none;
+    border-radius: 0;
+    font-family: Noto, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: rgba(34, 24, 21, 0.5);
+    color: @foreground;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    color: @foreground;
+    border-bottom: 3px solid transparent;
+}
+
+#workspaces button.focused {
+    border-bottom: 3px solid @color6
+}
+
+#window {
+    padding: 0 6px;
+    margin: 0 3px;
+    color: @foreground;
+}
+
+#idle_inhibitor, #backlight, #clock, #battery, #cpu, #memory, #network, #pulseaudio,  #tray, #mode, #custom-pacman {
+    padding: 0 6px;
+    margin: 0 3px;
+    border-bottom: 1px solid @color1;
+    color: @foreground;
+}
+
+#mode {
+    border-bottom: 1px solid @color5;
+}
