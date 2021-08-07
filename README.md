@@ -4,6 +4,7 @@ my configuration files for applications:
 - nvim
 - powerlevel10k
 - pywal
+- rofi
 - sway
 - waybar
 - zathura
