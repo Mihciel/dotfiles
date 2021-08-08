@@ -150,4 +150,4 @@ kb-row-select: "Tab";
 /*	me-accept-entry: "MouseDPrimary";*/
 /*	me-accept-custom: "Control+MouseDPrimary";*/
 }
-@import "custom-theme.rasi"
+@import "~/.cache/wal/custom-rofi-theme.rasi"
