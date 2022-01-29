@@ -49,7 +49,7 @@
         "interval": 3600,
         "exec": "echo \"`checkupdates | wc -l` updates (`paru -Qua | wc -l` aur)\"",
         "exec-on-event": true,
-	"on-click": "true"
+	      "on-click": "true"
     },
     "idle_inhibitor": {
         "format-icons": {"deactivated": "", "activated": ""},

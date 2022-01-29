@@ -17,7 +17,8 @@ set $alpha be
 
 ### Output configuration
 #
-output DP-3 resolution 1920x1080 position 0 0
+# output DP-3 resolution 1920x1080 position 0 0
+# output eDP-1 resolution 1920x1080 position 0 1080
 output HDMI-A-1 resolution 2560x1440@60Hz position 0 0
 output eDP-1 resolution 1920x1080 position 320 1440
 # output HDMI-A-1 resolution 1920x1200 position 0 0
@@ -43,23 +44,6 @@ seat seat0 xcursor_theme breeze_cursors 24
 bar {
     swaybar_command waybar
 }
-
-#bar {
-#    position top
-#    pango_markup enabled
-
-    # When the status_command prints a new line to stdout, swaybar updates.
-    # The default just shows the current date and time.
-    # status_command while date +'%Y-%m-%d %T'; do sleep 1; done
-#    status_command i3blocks
-#    status_command waybar
-
-#    colors {
-#        statusline #ffffff
-#        background #323232$alpha
-#        inactive_workspace #32323200 #32323200 #5c5c5c
-#    }
-#}
 
 #
 # Inputs:

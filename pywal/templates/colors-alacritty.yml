@@ -26,4 +26,4 @@ colors:
 font:
   normal:
     family: "MesloLGS NF"
-background_opacity: {alpha}
+window.opacity: {alpha}
